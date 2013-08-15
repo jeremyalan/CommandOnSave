@@ -1,0 +1,16 @@
+{
+  "commands": [
+  	{
+  		"extension": ".ts",
+  		"command": "tsc $filename$"
+  	},
+   {
+      "extension": ".less",
+      "command": "lessc $filename$ $filename_no_ext$.css"
+   },
+   {
+      "extension": ".less",
+      "command": "lessc -x $filename$ $filename_no_ext$.min.css"
+   }
+  ]
+}
